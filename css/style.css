@@ -8,6 +8,7 @@ header {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
+  background-attachment: fixed;
 }
 
 .nav-section {
@@ -53,7 +54,7 @@ a {
 .button a:hover{
 color:#fff;
  }
- 
+
 @media screen and (min-width: 662px) {
     h1 {
         padding: 60px 40px;

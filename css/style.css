@@ -14,7 +14,7 @@ header {
   height: 100vh;
   background-image: url("https://d35gjdqhyew8r0.cloudfront.net/wp-content/uploads/2021/12/LOA131221-012F02.JPG");
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -27,9 +27,12 @@ header {
   /* align-items: center; */
 }
 
-.nav-section {
-  display: flex;
-  justify-content: end;
+.dark-magenta {
+  background-color: #8b008bc1;
+}
+
+.color-magenta {
+  color: #e10165;
 }
 
 a {
@@ -127,17 +130,22 @@ footer {
   font-size: 13px;
 }
 
+.alto-linea {
+  line-height: 1.3;
+  padding: 0 70px;
+}
+
 .icon {
   transition: all 0.2s ease-in-out;
 }
 
 .icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.08);
 }
 
-.icon:hover {
+/* .icon:hover {
   transform: scale(1.2);
-}
+} */
 
 .color-nav {
   background: rgba(0, 0, 0, 0.5);
@@ -159,4 +167,28 @@ footer {
   .button {
     margin-top: 0;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .alto-linea {
+    padding: 0 20px;
+  }
+}
+
+/* styles de terminos y condiciones */
+.footer-abajo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.body-terminos {
+  margin: 0;
+  margin-bottom: 150px;
+}
+
+.html2 {
+  position: relative;
+  min-height: 100%;
 }

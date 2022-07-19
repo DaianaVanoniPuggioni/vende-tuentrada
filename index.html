@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vende TuEntrada</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,11 +23,14 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
       <div class="container">
-        <a class="navbar-brand" href="https://www.tuentrada.com/"
+        <a
+          class="navbar-brand"
+          href="https://www.tuentrada.com/"
+          target="_blank"
           ><img src="./img/logo_tue_secutix.png" alt="Logo tuentrada.com"
         /></a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler dark-magenta"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -38,10 +41,20 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse nav-section"
+          class="collapse navbar-collapse text-light"
           id="navbarNavAltMarkup"
         >
-          <div class="navbar-nav">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#" target="_blank">
+              <span class="text-light fw-bold">Términos y condiciones</span>
+            </a>
+          </div>
+          <div class="navbar-nav ps-lg-4">
+            <a class="nav-link" aria-current="page" href="#" target="_blank">
+              <span class="text-light fw-bold">Preguntas frecuentes</span>
+            </a>
+          </div>
+          <!-- <div class="navbar-nav">
             <a
               class="nav-link active"
               aria-current="page"
@@ -51,7 +64,7 @@
                 src="https://www.tuentrada.com/images/60637471a2c29.png"
                 alt=""
             /></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </nav>
@@ -73,13 +86,16 @@
         </button>
       </section>
     </header>
-    <main>
+    <main class="container">
       <section>
-        <h3>Conoce Vende TuEntrada</h3>
+        <h3>Conocé Vende TuEntrada</h3>
         <p class="p-section">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
-          voluptas, eius aliquid hic obcaecati enim distinctio ratione,
-          molestiae, doloribus fugit id temporibus possimus
+          Vende TuEntrada es una solución que provee TuEntrada que permite poner
+          a la venta las entradas que Ud. haya comprado en TuEntrada.com y que,
+          por alguna razón, no haya podido utilizar. Vende TuEntrada le permite
+          vender y comprar a otros vendedores de manera segura, confiable y
+          simple. La solución solo funciona para entradas que originalmente
+          fueron vendidas por TuEntrada.
         </p>
       </section>
       <section>
@@ -92,9 +108,9 @@
 
             <h4 class="mt-2">Seguro</h4>
 
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
-              doloremque vero sed veniam explicabo architecto?
+            <p class="text-center alto-linea">
+              Tené la tranquilidad de gestionar tus entradas sin salir de casa
+              ni arriesgar tu dinero.
             </p>
           </div>
           <div class="col-md-4 col-12 text-center">
@@ -104,9 +120,9 @@
             />
 
             <h4 class="mt-2">Confiable</h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
-              doloremque vero sed veniam explicabo architecto?
+            <p class="text-center alto-linea">
+              Vende TuEntrada te dá garantía de entradas 100% auténticas y
+              válidas para el show.
             </p>
           </div>
           <div class="col-md-4 col-12 text-center">
@@ -116,14 +132,15 @@
             />
 
             <h4 class="mt-2">Simple</h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
-              doloremque vero sed veniam explicabo architecto?
+            <p class="text-center alto-linea">
+              Publicá tus entradas de manera fácil y rápida desde la comodidad
+              de tu dispositivo móvil.
             </p>
           </div>
         </section>
       </section>
     </main>
+
     <footer class="bg-dark">
       <section class="d-flex justify-content-evenly row m-0">
         <div class="col-md-6 col-12 text-center">

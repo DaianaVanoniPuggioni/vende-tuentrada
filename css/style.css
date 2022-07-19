@@ -176,7 +176,7 @@ footer {
 }
 
 /* styles de terminos y condiciones */
-.footer-abajo {
+/* .footer-abajo {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -191,6 +191,18 @@ footer {
 .html2 {
   position: relative;
   min-height: 100%;
+} */
+
+.body-terminos {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 9em;
+}
+.footer-abajo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
 
 ol li {

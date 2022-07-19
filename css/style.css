@@ -1,5 +1,5 @@
 nav {
-  background-color:transparent;
+  background-color: transparent;
 }
 
 header {
@@ -9,21 +9,29 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
   background-attachment: fixed;
+  position: relative;
+  z-index: 10;
 }
 
 .nav-section {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 a {
-   text-decoration: none;
-   color:#fff;
+  text-decoration: none;
+  color: #fff;
 }
 .button {
-    font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
   color: #fff;
-  background: linear-gradient(to right, rgb(2, 1, 99) 0%, rgb(74, 1, 103) 63%, rgb(110, 2, 109) 91%, rgb(103, 4, 106) 100%);
+  background: linear-gradient(
+    to right,
+    rgb(2, 1, 99) 0%,
+    rgb(74, 1, 103) 63%,
+    rgb(110, 2, 109) 91%,
+    rgb(103, 4, 106) 100%
+  );
   display: inline-block;
   font-weight: 600;
   line-height: 1.5;
@@ -35,78 +43,82 @@ a {
   padding: 16px;
   font-size: 1rem;
   border-radius: 66px;
-  transition: 0.15s ease-in-out, ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    width: 300px;
-    border: 1px solid transparent;
-    box-shadow: 4px 7px 17px -6px rgba(136, 133, 144, 0.65);
-    margin-top: 20px;
-   transition: all .2s ease-in-out;
-   
+  transition: 0.15s ease-in-out, ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  width: 300px;
+  border: 1px solid transparent;
+  box-shadow: 4px 7px 17px -6px rgba(136, 133, 144, 0.65);
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
 }
 
-.button:hover{
-    /*background: linear-gradient(to right, rgba(4, 3, 85, 0.635) 0%, rgba(118, 8, 76, 0.651) 63%, rgba(51, 5, 103, 0.7) 91%, rgba(4, 3, 85, 0.7) 100%); }*/
-    background: linear-gradient(to right, rgba(3, 1, 99, 0.731) 0%, rgba(74, 1, 103, 0.603) 63%, rgba(110, 2, 108, 0.584) 91%, rgba(103, 4, 106, 0.598) 100%);
-    border: 1px solid rgba(211, 211, 211, 0.365);
-    
+.button:hover {
+  /*background: linear-gradient(to right, rgba(4, 3, 85, 0.635) 0%, rgba(118, 8, 76, 0.651) 63%, rgba(51, 5, 103, 0.7) 91%, rgba(4, 3, 85, 0.7) 100%); }*/
+  background: linear-gradient(
+    to right,
+    rgba(3, 1, 99, 0.731) 0%,
+    rgba(74, 1, 103, 0.603) 63%,
+    rgba(110, 2, 108, 0.584) 91%,
+    rgba(103, 4, 106, 0.598) 100%
+  );
+  border: 1px solid rgba(211, 211, 211, 0.365);
 }
-.button a:hover{
-color:#fff;
- }
+.button a:hover {
+  color: #fff;
+}
 
 @media screen and (min-width: 662px) {
-    h1 {
-        padding: 60px 40px;
-      }
+  h1 {
+    padding: 60px 40px;
+  }
 
-      .button {
-        margin-top: 40px;
-      }
-      
+  .button {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 300px) {
-    .button {
-   
-        margin-top: 10px;
-    }
+  .button {
+    margin-top: 10px;
+  }
 
-    h1 {
-        margin-top:0;
-    }
-      
+  h1 {
+    margin-top: 0;
+  }
 }
 
 main {
-    padding: 40px;
+  padding: 40px;
 }
 
 .p-section {
-    padding-top: 20px;
-    font-size: 19px;
+  padding-top: 20px;
+  font-size: 19px;
 }
 
 .icon-section {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-
 footer {
-    padding-top: 16px;
+  padding-top: 16px;
 }
 
 .p-footer {
-    color: rgb(163, 163, 163);
-    margin-top: 5px;
-    font-size: 13px;
+  color: rgb(163, 163, 163);
+  margin-top: 5px;
+  font-size: 13px;
 }
 
-.icon { 
-    transition: all .2s ease-in-out;  
+.icon {
+  transition: all 0.2s ease-in-out;
 }
 
-.icon:hover { 
-   transform: scale(1.2);
+.icon:hover {
+  transform: scale(1.2);
 }
+
+/* .fixed {
+  position: fixed;
+} */

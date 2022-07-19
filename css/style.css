@@ -110,3 +110,10 @@ footer {
 .icon:hover { 
    transform: scale(1.2);
 }
+
+.sticky {
+    width: 100%;
+    background-color: #c9c9c9;
+    position: fixed;
+    top: 0;
+  }

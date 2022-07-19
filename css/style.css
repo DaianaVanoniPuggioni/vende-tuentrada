@@ -192,3 +192,7 @@ footer {
   position: relative;
   min-height: 100%;
 }
+
+ol li {
+    margin-top: 10px;
+}

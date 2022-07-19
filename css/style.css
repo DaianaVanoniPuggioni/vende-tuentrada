@@ -119,6 +119,19 @@ footer {
   transform: scale(1.2);
 }
 
+<<<<<<< HEAD
 /* .fixed {
   position: fixed;
 } */
+=======
+.icon:hover { 
+   transform: scale(1.2);
+}
+
+.sticky {
+    width: 100%;
+    background-color: #c9c9c9;
+    position: fixed;
+    top: 0;
+  }
+>>>>>>> 0b6d5b4692ca35408ef2d1a601ca28b6a7219fa2

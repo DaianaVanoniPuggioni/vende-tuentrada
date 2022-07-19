@@ -9,6 +9,8 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   z-index: 10;
   display: flex;
@@ -65,7 +67,7 @@ a {
     rgba(110, 2, 108, 0.584) 91%,
     rgba(103, 4, 106, 0.598) 100%
   );
-  border: 1px solid rgba(211, 211, 211, 0.365);
+  /* border: 1px solid rgba(211, 211, 211, 0.365); */
 }
 .button a:hover {
   color: #fff;
@@ -135,5 +137,23 @@ footer {
 } */
 
 .color-nav {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-height: 281px) {
+  h1 {
+    padding: 50px 0 2px 0;
+  }
+  .button {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-height: 480px) and (min-height: 360px) {
+  h1 {
+    padding: 70px 40px 10px 40px;
+  }
+  .button {
+    margin-top: 0;
+  }
 }

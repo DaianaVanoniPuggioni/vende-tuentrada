@@ -1,5 +1,13 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 nav {
   background-color: transparent;
+}
+
+h1 {
+  font-weight: bold;
 }
 
 header {
@@ -109,6 +117,8 @@ main {
 
 footer {
   padding-top: 16px;
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
 
 .p-footer {
@@ -128,13 +138,6 @@ footer {
 .icon:hover {
   transform: scale(1.2);
 }
-
-/* .sticky {
-  width: 100%;
-  background-color: #c9c9c9;
-  position: fixed;
-  top: 0;
-} */
 
 .color-nav {
   background: rgba(0, 0, 0, 0.5);

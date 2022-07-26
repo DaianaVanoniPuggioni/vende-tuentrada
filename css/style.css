@@ -2,9 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-nav {
-  background-color: transparent;
-}
 
 h1 {
   font-weight: bold;
@@ -177,11 +174,28 @@ footer {
   align-items: center;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 991px){
   .section-buttons{
     justify-content: center;
   }
+
 }
+
+@media screen and (max-width: 991px){
+  nav {
+    background-color: rgba(0, 0, 0, 0.648);
+  }
+}
+
+
+@media screen and (min-width: 992px){
+  nav {
+    background-color: transparent;
+  }
+}
+
+
+
 
 /* styles de terminos y condiciones */
 /* .footer-abajo {
@@ -215,4 +229,24 @@ footer {
 
 ol li {
     margin-top: 10px;
+}
+
+@media screen and (max-width: 295px) {
+ 
+  h1 {
+    margin-top: 2em;
+  }
+  .button {
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+
 }

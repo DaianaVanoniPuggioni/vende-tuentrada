@@ -12,7 +12,7 @@ h1 {
 
 header {
   height: 100vh;
-  background-image: url("https://d35gjdqhyew8r0.cloudfront.net/wp-content/uploads/2021/12/LOA131221-012F02.JPG");
+  background-image: url("../img/img-fondo.webp");
   background-position: center;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;

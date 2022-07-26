@@ -14,7 +14,7 @@ header {
   height: 100vh;
   background-image: url("../img/img-fondo.webp");
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(4, 1, 29, 0.8);
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -28,7 +28,8 @@ header {
 }
 
 .dark-magenta {
-  background-color: #8b008bc1;
+  /* background-color: #8b008bc1; */
+  background-color: #605d94c1;
 }
 
 .color-magenta {
@@ -42,13 +43,14 @@ a {
 .button {
   font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
   color: #fff;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgb(2, 1, 99) 0%,
     rgb(74, 1, 103) 63%,
     rgb(110, 2, 109) 91%,
     rgb(103, 4, 106) 100%
-  );
+  ); */
+  background: linear-gradient(90deg, #0b048d 0%, #090979 35%, #06a5c5 100%);
   display: inline-block;
   font-weight: 600;
   line-height: 1.5;
@@ -58,26 +60,20 @@ a {
   cursor: pointer;
   user-select: none;
   padding: 16px;
-  font-size: 1rem;
+  font-size: 1.50em;
   border-radius: 66px;
   transition: 0.15s ease-in-out, ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
   width: 300px;
-  border: 1px solid transparent;
-  box-shadow: 4px 7px 17px -6px rgba(136, 133, 144, 0.65);
+  border: none;
+  /* box-shadow: 4px 7px 17px -6px rgba(136, 133, 144, 0.65); */
   margin-top: 20px;
   transition: all 0.2s ease-in-out;
 }
 
 .button:hover {
   /*background: linear-gradient(to right, rgba(4, 3, 85, 0.635) 0%, rgba(118, 8, 76, 0.651) 63%, rgba(51, 5, 103, 0.7) 91%, rgba(4, 3, 85, 0.7) 100%); }*/
-  background: linear-gradient(
-    to right,
-    rgba(3, 1, 99, 0.731) 0%,
-    rgba(74, 1, 103, 0.603) 63%,
-    rgba(110, 2, 108, 0.584) 91%,
-    rgba(103, 4, 106, 0.598) 100%
-  );
+  background: linear-gradient(90deg, #0b048dbb 0%, #090979bd 35%, #06a5c5c2 100%);
   /* border: 1px solid rgba(211, 211, 211, 0.365); */
 }
 .button a:hover {
@@ -172,6 +168,18 @@ footer {
 @media screen and (min-width: 768px) {
   .alto-linea {
     padding: 0 20px;
+  }
+}
+
+.section-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px){
+  .section-buttons{
+    justify-content: center;
   }
 }
 
